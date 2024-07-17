@@ -1,94 +1,114 @@
+
 - title: Senior Software Engineer
-  from: Jan 2020
+  company: Swile Brasil S.A.
+  company-logo: /assets/images/swile-cv-logo.jpg
+  from: Mar 2022
   to: Present
   description: >
-    Vee Benefits merged with Swile France to create Swile Global. Our mission remains the same, and in this phase of global system integration, I returned to software development and help our now global company by sharing my experience with the many new colleagues who have joined, facilitating our growth.
-    Key activities and projects:
-    - Implementation of KYC flow
-    - AWS security infrastructure management
-    - SRE
-    - Backend development in Java (springboot and wildfly j2ee)
-    - Integration with global processes
-    - Definition of observability standards
-    - Design of internal incident management process
-- title: Head of Infrastructure, Security, and Integration
+    <p>Vee Benefits merged with Swile France to create Swile Global. Our mission remains the same, and in this phase of global system integration, I returned to software development and help our now global company by sharing my experience with the many new colleagues who have joined, facilitating our growth.</p>
+    <p>Key activities and projects:</p>
+    <ul>
+      <li>Implementation of KYC flow</li>
+      <li>AWS security infrastructure management</li>
+      <li>SRE</li>
+      <li>Backend development in Java (springboot and wildfly j2ee)</li>
+      <li>Integration with global processes</li>
+      <li>Definition of observability standards</li>
+      <li>Design of internal incident management process</li>
+    </ul>
+- title: Infrastructure, Security, and Integration Leader
   from: Jan 2019
   to: Mar 2022
   description: >
-    As the company began to scale and double every 3 months, the demand for security, infrastructure, governance, and compliance tasks grew exponentially. I took on this role to assist the company with infrastructure-security-related demands while continuing to develop backend in Java.
-    Key competencies: 
-    - Information Technology
-    - Amazon Web Services
-    - Disaster Recovery
-    - IT Governance
-    - Databases
-    - Continuous Integration
-    - Backend Development
-    - Compliance Management
-    - Information Security
-    - Systems Analysis
-    - Technology Integration
+    <p>As the company began to scale and double every 3 months, the demand for security, infrastructure, governance, and compliance tasks grew exponentially. I took on this role to assist the company with infrastructure-security-related demands while continuing to develop backend in Java.</p>
+    <p>Key competencies:</p>
+    <ul>
+      <li>Information Technology</li>
+      <li>Amazon Web Services</li>
+      <li>Disaster Recovery</li>
+      <li>IT Governance</li>
+      <li>Databases</li>
+      <li>Continuous Integration</li>
+      <li>Backend Development</li>
+      <li>Compliance Management</li>
+      <li>Information Security</li>
+      <li>Systems Analysis</li>
+      <li>Technology Integration</li>
+    </ul>
 - title: Senior Software Engineer
   from: May 2017
   to: Jan 2019
   description: >
-    I had the immense pleasure of being part of the foundation of this company. Our company was called Vee Digital, and we practically created the flexible benefits market through the use of technology. During that time, I joined to develop the beta version and ended up staying, participating in virtually every stage of building a startup that has now become a global unicorn and centaur. In addition to software development, I played a role in establishing networks, integrating the business with major supermarket chains, enabling the scalability of our merchant network.
-    Key activities and projects:
-    - Development of geo-location feature in backend Java (j2ee) and frontend Android
-    - Development of financial backend
-    - Field requirements discovery and analysis
-    - Cloud solution architecture and infrastructure
-    - Investor support
-    Key competencies:
-    - Software Development
-    - Information Technology
-    - Software Architecture
-    - Platform Architecture
-    - Database Design
-    - Amazon Web Services
-    - PHP
-    - Front-end Coding
-    - Disaster Recovery
-    - Databases
-    - Backend Development
-    - IT Infrastructure Management
-    - Database Administration
-    - Cloud Computing
-    - Sales
-    - Java
-    - MySQL
-    - Front-end Design
-    - Android Development
-    - Systems Analysis
-- title: Owner
+    <p>I had the immense pleasure of being part of the foundation of this company. Our company was called Vee Digital, and we practically created the flexible benefits market through the use of technology. During that time, I joined to develop the beta version and ended up staying, participating in virtually every stage of building a startup that has now become a global unicorn and centaur. In addition to software development, I played a role in establishing networks, integrating the business with major supermarket chains, enabling the scalability of our merchant network.</p>
+    <p>Key activities and projects:</p>
+    <ul>
+      <li>Development of geo-location feature in backend Java (j2ee) and frontend Android</li>
+      <li>Development of financial backend</li>
+      <li>Field requirements discovery and analysis</li>
+      <li>Cloud solution architecture and infrastructure</li>
+      <li>Investor support</li>
+    </ul>
+    <p>Key competencies:</p>
+    <ul>
+      <li>Software Development</li>
+      <li>Information Technology</li>
+      <li>Software Architecture</li>
+      <li>Platform Architecture</li>
+      <li>Database Design</li>
+      <li>Amazon Web Services</li>
+      <li>PHP</li>
+      <li>Front-end Coding</li>
+      <li>Disaster Recovery</li>
+      <li>Databases</li>
+      <li>Backend Development</li>
+      <li>IT Infrastructure Management</li>
+      <li>Database Administration</li>
+      <li>Cloud Computing</li>
+      <li>Sales</li>
+      <li>Java</li>
+      <li>MySQL</li>
+      <li>Front-end Design</li>
+      <li>Android Development</li>
+      <li>Systems Analysis</li>
+    </ul>
+- title: Senior Software Architect and Owner
+  company: Opcode Tecnologia
   from: Oct 2010
   to: Mar 2017
   description: >
-    Opcode Tecnologia was established to operate in the industrial automation sector, developing projects and providing training to empower individuals and enhance their expertise.
-    Our Mission: Turn ideas into successful projects with innovative and sustainable solutions, ensuring our clients feel they have received more value than they paid for. Transfer knowledge to individuals, empowering them to work with cutting-edge technologies.
-    Key competencies:
-    - Information Technology
-    - Databases
-    - Team Management
-    - Systems Analysis
+    <p>Opcode Tecnologia was established to operate in the industrial automation sector, developing projects and providing training to empower individuals and enhance their expertise.</p>
+    <p>Our Mission: Turn ideas into successful projects with innovative and sustainable solutions, ensuring our clients feel they have received more value than they paid for. Transfer knowledge to individuals, empowering them to work with cutting-edge technologies.</p>
+    <p>Key competencies:</p>
+    <ul>
+      <li>Information Technology</li>
+      <li>Databases</li>
+      <li>Team Management</li>
+      <li>Systems Analysis</li>
+    </ul>
 - title: Project Systems Leader
+  company: Luxfacta Soluções de TI
   from: Nov 2008
   to: Sep 2010
   description: >
-    In this company, I acted as a leader in systems projects. My achievements included leading the development of a purchasing control system for the Latin America region of a multinational company and later leading the development of some blocks of the new Internet Banking for Bradesco.
-    Key competencies:
-    - Information Technology
-    - Databases
-    - Team Management
-    - Systems Analysis
+    <p>In this company, I acted as a leader in systems projects. My achievements included leading the development of a purchasing control system for the Latin America region of a multinational company and later leading the development of some blocks of the new Internet Banking for Bradesco.</p>
+    <p>Key competencies:</p>
+    <ul>
+      <li>Information Technology</li>
+      <li>Databases</li>
+      <li>Team Management</li>
+      <li>Systems Analysis</li>
+    </ul>
 - title: Development Coordinator
+  company: TCI Outsourcing - Build Up
   from: Nov 1998
   to: Aug 2008
   description: >
-    For 3 years, I worked as a network and infrastructure administrator. However, due to the increasing demand for process customization, I transitioned to the systems development area, starting the development and support department and internalizing most of the customization and software maintenance services that the company needed, adding speed to implementations and all customization and system evolution processes.
-    Key competencies:
-    - Information Technology
-    - Disaster Recovery
-    - Databases
-    - Team Management
-    - Systems Analysis
+    <p>For 3 years, I worked as a network and infrastructure administrator. However, due to the increasing demand for process customization, I transitioned to the systems development area, starting the development and support department and internalizing most of the customization and software maintenance services that the company needed, adding speed to implementations and all customization and system evolution processes.</p>
+    <p>Key competencies:</p>
+    <ul>
+      <li>Information Technology</li>
+      <li>Disaster Recovery</li>
+      <li>Databases</li>
+      <li>Team Management</li>
+      <li>Systems Analysis</li>
+    </ul>
