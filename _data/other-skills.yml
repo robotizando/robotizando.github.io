@@ -1,0 +1,24 @@
+- name: Git 
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Incident Response and Disaster Recovery
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: System Integration
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: Governance
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Work Ethic
+  percentage: 100
+  color: success
+  level: Specialist

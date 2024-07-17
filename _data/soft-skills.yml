@@ -1,0 +1,43 @@
+- name: Problem Solving
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: Learning Ability
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: Leadership
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Doer
+  percentage: 100
+  color: success 
+  level: Specislist
+
+- name: Commitment
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: Communication
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Teamwork
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Helpfulness
+  percentage: 100
+  color: success 
+  level: Specislist
+
+
+
+

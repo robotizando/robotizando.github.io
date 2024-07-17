@@ -1,0 +1,39 @@
+- name: Monitoring and Alerting
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: Amazon Web Services Management
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Infrastructure Security
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Database Management
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Performance Tuning
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Continuous Integration/Continuous Deployment (CI/CD)
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Infrastructure as Code (IaC)
+  percentage: 25
+  color: warning
+  level: Begginer
+
+- name: Logging and Analysis
+  percentage: 75
+  color: info
+  level: Advanced

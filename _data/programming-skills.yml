@@ -1,0 +1,39 @@
+- name: Java (Spring Boot, Wildfly J2EE)
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: PHP
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: JavaScript
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: C++
+  percentage: 75
+  color: info
+  level: Advanced  
+
+- name: HTML5/CSS3
+  percentage: 75
+  color: info
+  level: Advanced  
+
+- name: Python
+  percentage: 50
+  color: secondary
+  level: Intermediate
+
+- name: Ruby
+  percentage: 50
+  color: secondary
+  level: Intermediate
+
+- name: Rust
+  percentage: 10
+  color: danger
+  level: Begginer  
