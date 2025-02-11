@@ -1,7 +1,4 @@
-- name: Java (Spring Boot, Wildfly J2EE)
-  percentage: 100
-  color: success
-  level: Specialist
+
 
 - name: PHP
   percentage: 100

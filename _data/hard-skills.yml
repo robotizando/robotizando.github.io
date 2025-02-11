@@ -1,0 +1,39 @@
+- name: Java (Spring Boot, Wildfly J2EE)
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: System Integration
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: Amazon Web Services Management
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Infrastructure Security
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Database Management
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Performance Tuning
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: English
+  percentage: 75
+  color: info
+  level: Intermediate
+
+- name: Spanish
+  percentage: 75
+  color: info
+  level: Intermediate

@@ -8,10 +8,15 @@
   color: success
   level: Specialist
 
+- name: Helpfulness
+  percentage: 100
+  color: success 
+  level: Specislist
+
 - name: Leadership
-  percentage: 75
-  color: info
-  level: Advanced
+  percentage: 100
+  color: success
+  level: Specislist
 
 - name: Doer
   percentage: 100
@@ -28,15 +33,7 @@
   color: info
   level: Advanced
 
-- name: Teamwork
-  percentage: 75
-  color: info
-  level: Advanced
 
-- name: Helpfulness
-  percentage: 100
-  color: success 
-  level: Specislist
 
 
 

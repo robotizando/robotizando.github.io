@@ -19,15 +19,16 @@ My background also includes founding and developing startups, where I contribute
 
 <div class="row">
 
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
+{% include about/skills.html title="Hard Skills" source=site.data.hard-skills %}
 
 {% include about/skills.html title="Soft Skills" source=site.data.soft-skills %}
 
 </div>
 
+
 <div class="row">
-	
-{% include about/skills.html title="SRE Skills" source=site.data.sre-skills %}
+
+{% include about/skills.html title="Mad Skills" source=site.data.mad-skills %}
 
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 

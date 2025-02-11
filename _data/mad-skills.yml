@@ -1,0 +1,26 @@
+- name: Hardware Hacking and Design
+  percentage: 100
+  color: success
+  level: Specialist
+
+- name: 3d Printing
+  percentage: 100
+  color: success 
+  level: Specislist
+
+- name: Audio Engineering
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Interactive Art
+  percentage: 75
+  color: info
+  level: Advanced
+
+- name: Ocean Sailing
+  percentage: 50
+  color: info
+  level: Specialist
+
+
