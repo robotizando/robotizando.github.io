@@ -1,6 +1,6 @@
 ---
 name: Metabotix
-tools: [Open Hardware, 3D printing, Robotics, Physics, Mechanics, Open Tecnologies, Software, Arduino, Raspberry Pi]
+tools: [Open Hardware, 3D printing, Robotics, Physics, Mechanics, Open Technologies, Software, Arduino, Raspberry Pi]
 image: /assets/images/metabotix-logo.webp
 description: Metabotix is the name of the Robotics and Open Technologies Laboratory at Federal Institute of Goias (IFG) Campus Luziânia. <br><br> I participate as a consultant on open technologies and correlated subjects.
 

@@ -4,7 +4,7 @@ tags: [Social Media, Minimalism, Technology]
 image: /assets/images/artigos/techRituals-cover.webp
 style: 
 color: 
-description: Technical rituals are structured, repeatable processes dessigned to bring consistency and efficiency to various fields. From software development to sports, these rituals serve as a backbone for reducing complexity and improving outcomes. This article explores the concept of technical rituals, their applications, and their benefits, while addressing the challenges they pose.
+description: Technical rituals are structured, repeatable processes designed to bring consistency and efficiency to various fields. From software development to sports, these rituals serve as a backbone for reducing complexity and improving outcomes. This article explores the concept of technical rituals, their applications, and their benefits, while addressing the challenges they pose.
 ---
 
 
