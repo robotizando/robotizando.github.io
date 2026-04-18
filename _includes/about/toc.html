@@ -1,0 +1,34 @@
+<nav class="cv-toc" aria-label="Índice do currículo">
+  <details class="cv-toc-details" open>
+    <summary class="cv-toc-summary">
+      <i class="fas fa-list-ul mr-2"></i>Índice
+    </summary>
+    <ol class="cv-toc-list">
+      <li><a href="#intro">Resumo</a></li>
+      <li>
+        <a href="#skills">Skills</a>
+        <ol>
+          <li><a href="#hard-skills">Hard Skills</a></li>
+          <li><a href="#soft-skills">Soft Skills</a></li>
+          <li><a href="#mad-skills">Mad Skills</a></li>
+          <li><a href="#other-skills">Other Skills</a></li>
+        </ol>
+      </li>
+      <li>
+        <a href="#career">Carreira</a>
+        <ol>
+          {% for item in site.data.timeline %}
+            {% assign label = item.company | default: item.title %}
+            {% assign slug = label | slugify %}
+            <li>
+              <a href="#timeline-{{ slug }}">
+                <span class="cv-toc-label">{{ label }}</span>
+                <span class="cv-toc-period">{{ item.from }} — {{ item.to }}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ol>
+      </li>
+    </ol>
+  </details>
+</nav>

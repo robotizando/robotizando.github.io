@@ -1,7 +1,9 @@
 <div class="col mt-4">
   <div class="timeline-body bg-themed">
     {% for item in site.data.timeline %}
-      <div class="timeline-item">
+      {% assign label = item.company | default: item.title %}
+      {% assign slug = label | slugify %}
+      <div class="timeline-item" id="timeline-{{ slug }}">
         <div class="content">
           <!-- <img id="{{ item.company-logo }}-img" width="100px" class="card-img-top" src="{{ item.company-logo }}" alt="{{ item.company }}" /> -->
           <h3>{{ item.company }}</h3>

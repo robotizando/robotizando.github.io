@@ -5,7 +5,17 @@ permalink: /about/
 weight: 0
 ---
 
+<div class="row cv-layout">
+
+<aside class="col-lg-3 order-lg-2 cv-toc-wrapper">
+{% include about/toc.html %}
+</aside>
+
+<div class="col-lg-9 order-lg-1 cv-content" markdown="1">
+
 # **Curriculum Vitae**
+
+<section id="intro" class="cv-anchor" markdown="1">
 
 Hi I am **{{ site.author.name }}** :wave:,<br><br>
 
@@ -15,26 +25,29 @@ I have strong skills in full stack and full cycle development using technologies
 
 Additionally, I specialize in AWS infrastructure and security, integration flow implementation, incident management, global processes integration, and establishing observability standards for global company.
 
-My background also includes founding and developing startups, where I contributed to scalable growth and integration with major supermarket chains. I participate in the creation of a company called Vee Beneficios: a Brazilian fintech and I am also founder of SWILE Brasil S.A. a global worktech company. 
+My background also includes founding and developing startups, where I contributed to scalable growth and integration with major supermarket chains. I participate in the creation of a company called Vee Beneficios: a Brazilian fintech and I am also founder of SWILE Brasil S.A. a global worktech company.
+
+</section>
+
+<section id="skills" class="cv-anchor">
 
 <div class="row">
-
-{% include about/skills.html title="Hard Skills" source=site.data.hard-skills %}
-
-{% include about/skills.html title="Soft Skills" source=site.data.soft-skills %}
-
+{% include about/skills.html id="hard-skills" title="Hard Skills" source=site.data.hard-skills %}
+{% include about/skills.html id="soft-skills" title="Soft Skills" source=site.data.soft-skills %}
 </div>
-
 
 <div class="row">
-
-{% include about/skills.html title="Mad Skills" source=site.data.mad-skills %}
-
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-
+{% include about/skills.html id="mad-skills" title="Mad Skills" source=site.data.mad-skills %}
+{% include about/skills.html id="other-skills" title="Other Skills" source=site.data.other-skills %}
 </div>
 
+</section>
 
+<section id="career" class="cv-anchor">
 <div class="row">
 {% include about/timeline.html %}
+</div>
+</section>
+
+</div>
 </div>
