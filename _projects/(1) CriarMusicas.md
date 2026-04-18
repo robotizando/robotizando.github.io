@@ -2,13 +2,13 @@
 name: CriarMusicas
 tools: [Next.js, React, TypeScript, Node.js, Express, PostgreSQL, Drizzle ORM, TailwindCSS, OpenAI, Whisper, GPT, Stripe, FFmpeg, Turborepo, PM2]
 image: /assets/images/criarmusicas-logo.png
-description: CriarMusicas (Músicas para o Mozão) is a web application that generates personalized AI-powered songs for loved ones.<br><br> Users record a story about their relationship and the platform turns it into a unique song using AI for transcription, lyrics and music generation.
-external_url: https://musicaparaomozao.com.br
+description: CriarMusicas.com.br is a web application that generates personalized AI-powered songs for loved ones.<br><br> Users record a story about their relationship and the platform turns it into a unique song using AI for transcription, lyrics and music generation.
+external_url: https://criarmusicas.com.br
 ---
 
 # CriarMusicas
 
-**CriarMusicas** (publicly branded as *Músicas para o Mozão*) is a web application I built to generate **personalized AI-powered songs** for loved ones. The user records a story about their relationship, and the platform turns it into a unique song — lyrics and melody included.
+**CriarMusicas**  is a web application I built to generate **personalized AI-powered songs** for loved ones. The user records a story about their relationship, and the platform turns it into a unique song — lyrics and melody included.
 
 {% include elements/figure.html image="/assets/images/criarmusicas-logo.png" caption="Músicas para o Mozão — sua história de amor, sua trilha sonora." %}
 
