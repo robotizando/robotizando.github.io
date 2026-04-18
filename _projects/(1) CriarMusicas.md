@@ -3,7 +3,6 @@ name: CriarMusicas
 tools: [Next.js, React, TypeScript, Node.js, Express, PostgreSQL, Drizzle ORM, TailwindCSS, OpenAI, Whisper, GPT, Stripe, FFmpeg, Turborepo, PM2]
 image: /assets/images/criarmusicas-logo.png
 description: CriarMusicas.com.br is a web application that generates personalized AI-powered songs for loved ones.<br><br> Users record a story about their relationship and the platform turns it into a unique song using AI for transcription, lyrics and music generation.
-external_url: https://criarmusicas.com.br
 ---
 
 # CriarMusicas
