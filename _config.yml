@@ -101,5 +101,6 @@ defaults:
 exclude:
   - README.md
   - CONTRIBUTING.md
+  - CLAUDE.md
   - LICENSE
   - "*.log"
