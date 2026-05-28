@@ -15,7 +15,7 @@ weight: 0
 
 # **Curriculum Vitae**
 
-<section id="intro" class="cv-anchor" markdown="1">
+{% include elements/button.html text="📄 Download CV (PDF)" link="/assets/cv/Daniel-Basconcello-Filho-CV.pdf" style="primary" %}
 
 Hi I am **{{ site.author.name }}** :wave:,<br><br>
 

@@ -11,17 +11,17 @@
 - name: Helpfulness
   percentage: 100
   color: success 
-  level: Specislist
+  level: Specialist
 
 - name: Leadership
   percentage: 100
   color: success
-  level: Specislist
+  level: Specialist
 
 - name: Doer
   percentage: 100
   color: success 
-  level: Specislist
+  level: Specialist
 
 - name: Commitment
   percentage: 100

@@ -6,7 +6,7 @@
 - name: 3d Printing
   percentage: 100
   color: success 
-  level: Specislist
+  level: Specialist
 
 - name: Audio Engineering
   percentage: 75
