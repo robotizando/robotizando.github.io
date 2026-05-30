@@ -1,7 +1,7 @@
 
 - title: Co-founder — Technology, Research and Development
   company: IA.PURU
-  from: 2026
+  from: Mar 2026
   to: Present
   description: >
     <p>Co-founder of <a href="https://iapuru.com.br">IA.PURU</a>, an innovation and technology company whose motto is "transforming ideas into technological solutions". I lead the technology, research and development front, taking concepts from initial conception through to market-ready products.</p>
@@ -15,10 +15,23 @@
       <li>Observability and Analytics — real-time monitoring and data analysis for metric-driven decisions</li>
     </ul>
 - title: Senior Software Engineer
+  company: Assis.co
+  from: Oct 2025
+  to: Feb 2026
+  description: >
+    <p>During my brief time at Assis.co I worked in the growth department, supporting the company's constant business changes, building integrations and tracking the numbers.</p>
+    <p>Key responsibilities:</p>
+    <ul>
+      <li>Growth</li>
+      <li>Systems integration</li>
+      <li>AI-assisted development</li>
+      <li>Data analysis</li>
+    </ul>
+- title: Senior Software Engineer
   company: Swile Brasil S.A.
   company-logo: /assets/images/swile-cv-logo.jpg
   from: Mar 2022
-  to: Dec 2025
+  to: Oct 2025
   description: >
     <p>Vee Benefits merged with Swile France to create Swile Global. Our mission remains the same, and in this phase of global system integration, I returned to software development and help our now global company by sharing my experience with the many new colleagues who have joined, facilitating our growth.</p>
     <p>Key activities and projects:</p>
