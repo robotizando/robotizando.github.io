@@ -32,8 +32,10 @@
   percentage: 75
   color: info
   level: Intermediate
+  category: language
 
 - name: Spanish
   percentage: 75
   color: info
   level: Intermediate
+  category: language

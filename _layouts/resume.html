@@ -180,13 +180,26 @@
     </section>
 
     <section>
+      <h2 class="section-title">Languages</h2>
+      <div class="skill-grid">
+        {% for s in site.data.hard-skills %}
+        {% if s.category == "language" %}
+        <div class="skill-row"><span class="nm">{{ s.name | strip }}</span><span class="lv">{{ s.level }}</span></div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <section>
       <h2 class="section-title">Skills</h2>
 
       <div class="skill-cat">
         <h3>Technical</h3>
         <div class="skill-grid">
           {% for s in site.data.hard-skills %}
+          {% unless s.category == "language" %}
           <div class="skill-row"><span class="nm">{{ s.name | strip }}</span><span class="lv">{{ s.level }}</span></div>
+          {% endunless %}
           {% endfor %}
         </div>
       </div>

@@ -26,13 +26,20 @@ I have strong skills in full stack and full cycle development using technologies
 Additionally, I specialize in AWS infrastructure and security, integration flow implementation, incident management, global processes integration, and establishing observability standards for global company.
 
 My background also includes founding and developing startups, where I contributed to scalable growth and integration with major supermarket chains. I participate in the creation of a company called Vee Beneficios: a Brazilian fintech and I am also founder of SWILE Brasil S.A. a global worktech company.
+<section id="languages" class="cv-anchor">
+
+{% assign languages = site.data.hard-skills | where: "category", "language" %}
+<div class="row">
+{% include about/skills.html title="Languages" source=languages %}
+</div>
 
 </section>
 
 <section id="skills" class="cv-anchor">
 
+{% assign hard_skills = site.data.hard-skills | where_exp: "s", "s.category != 'language'" %}
 <div class="row">
-{% include about/skills.html id="hard-skills" title="Hard Skills" source=site.data.hard-skills %}
+{% include about/skills.html id="hard-skills" title="Hard Skills" source=hard_skills %}
 {% include about/skills.html id="soft-skills" title="Soft Skills" source=site.data.soft-skills %}
 </div>
 
