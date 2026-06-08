@@ -19,13 +19,15 @@ weight: 0
 
 Hi I am **{{ site.author.name }}** :wave:,<br><br>
 
-I am a senior software engineer with extensive experience in software development, system integration and security. My expertise lies in software architecture, cloud such as Amazon Web Services (AWS) and on premises environments <br><br>
+Senior software engineer with 25+ years building, integrating, and securing systems — from cloud-native platforms on AWS to low-level C++ for embedded electronics and robotics.
 
-I have strong skills in full stack and full cycle development using technologies like Java (Spring Boot and Wildfly J2EE), Python and PHP with the bonus to have lots of experiences with Low level C++ code for embedded electronics and robotics. <br><br>
+I've spent my career taking ideas from zero to one. I helped found Vee Digital, which essentially created Brazil's flexible-benefits market through technology and grew into a global unicorn after merging with Swile France. Along the way I've led infrastructure, security, governance, and observability at companies scaling fast enough to double every few months — implementing KYC flows, designing incident-management processes, and defining the standards that keep platforms reliable under pressure.
 
-Additionally, I specialize in AWS infrastructure and security, integration flow implementation, incident management, global processes integration, and establishing observability standards for global company.
+My core stack is Java (Spring Boot, Wildfly/J2EE), Python, and PHP, with deep AWS architecture and security expertise across cloud and on-premises environments. I'm equally comfortable in full-stack, full-cycle delivery and in the hardware layer — sensors, embedded devices, IoT, and monitoring systems.
 
-My background also includes founding and developing startups, where I contributed to scalable growth and integration with major supermarket chains. I participate in the creation of a company called Vee Beneficios: a Brazilian fintech and I am also founder of SWILE Brasil S.A. a global worktech company.
+Today I co-found and lead technology, research, and development at IA.PURU, where we turn concepts into market-ready products: intelligent automation, machine-learning and LLM-based solutions, hardware/IoT, and real-time observability.
+
+Outside of work, I'm a hardware hacker, 3D-printing and audio-engineering enthusiast, interactive-art tinkerer, and ocean sailor — the same curiosity that drives how I build.
 <section id="languages" class="cv-anchor">
 
 {% assign languages = site.data.hard-skills | where: "category", "language" %}
