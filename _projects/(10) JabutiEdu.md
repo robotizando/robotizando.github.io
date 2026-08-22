@@ -1,5 +1,6 @@
 ---
 name: Jabuti EDU
+slug: jabuti-edu
 tools: [Open Hardware, 3D printing, PHP, MySQL, Apache Server, Robotics, HTML5, Javascript, C++]
 image: /assets/images/jabutiedu-site.jpg
 description: Free Educational Robotics Platform developed by the Jabuti Edu Community

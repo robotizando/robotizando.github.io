@@ -4,8 +4,10 @@
   {% assign description = page.description | default: site.description | strip_html | strip_newlines | truncate: 160 %}
   {% assign image = page.image | default: site.author.image %}
 
-  {% if page.name and page.collection == 'projects' %}
-    {% assign title = page.name | escape %}
+  {% if page.name and page.collection %}
+    {% if page.collection == 'projects' or page.collection == 'events' %}
+      {% assign title = page.name | escape %}
+    {% endif %}
   {% endif %}
 
   <meta charset="utf-8">

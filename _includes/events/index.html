@@ -1,0 +1,27 @@
+
+<div class="card-columns m-3 mt-5">
+
+  {% for event in site.events %}
+
+    {%- assign event_id       = event.name | slugify -%}
+    {%- assign event_img      = event.image -%}
+    {%- assign event_name     = event.name -%}
+    {%- assign event_location = event.location -%}
+    {%- assign event_role     = event.role -%}
+    {%- assign event_desc     = event.description -%}
+    {%- assign event_topics   = event.topics -%}
+    {%- assign event_years    = event.years -%}
+
+    {%- if event.external_url -%}
+      {%- assign event_url = event.external_url -%}
+      {%- assign external  = true -%}
+    {%- else -%}
+      {%- assign event_url = event.url | relative_url -%}
+      {%- assign external  = false -%}
+    {%- endif -%}
+
+    {% include events/event-card.html %}
+
+  {% endfor %}
+
+</div>

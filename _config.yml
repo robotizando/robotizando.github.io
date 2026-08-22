@@ -57,7 +57,10 @@ permalink: /blog/:title
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /projects/:title                           # :title uses the `slug` front matter key, keeping the "(NN) " ordering prefix out of the URL
+  events:
+    output: true
+    permalink: /events/:title                          # :title uses the `slug` front matter key, keeping the "(NN) " ordering prefix out of the URL
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
 
@@ -89,6 +92,11 @@ defaults:
   - scope:
       path: ""
       type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "events"
     values:
       layout: "page"
   - scope:

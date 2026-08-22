@@ -1,5 +1,6 @@
 ---
 name: govdados.org.br
+slug: govdados
 tools: [Ruby, mySQL, Rails, MariaDB, HTML5, CSS, Javascript]
 image: /assets/images/govdados-b.jpeg
 description: The govDados project is an independent association composed of leaders from both the public and private sectors. <br><br> I developed the first version of the website using Ruby on Rails, and also created the logo and visual identity for the Govdados project."

@@ -1,0 +1,31 @@
+# Source page per project thumbnail, for scripts/capture-project-shots.sh
+#
+#   <slug><TAB><url>[<TAB>flags]
+#
+# flags: comma-separated. "insecure" bypasses TLS validation (expired/self-signed
+# cert), "delay=N" waits N seconds before shooting.
+#
+# Slugs must match the `slug:` front matter key in the matching _projects/ file.
+# Local URLs need their dev server running first — see the comments below.
+
+iapuru	https://iapuru.com.br
+carlota	https://carlota.iapuru.com.br	delay=15
+criarjingles	https://criarjingles.com.br
+
+# Jopoia: the live host sits behind HTTP Basic auth, so shoot the local prototype.
+#   cd ~/Trabalhos-git/jopoi && pnpm dev        # serves apps/ on :3000
+jopoia	http://localhost:3000/prototipo_lista/landing.html
+
+# Forma Infinita: not deployed — no DNS for formainfinita.com.br.
+#   cd ~/Trabalhos-git/formainfinita && pnpm install && pnpm dev
+# Jekyll already owns :4000, so serve the web app elsewhere:
+#   pnpm --filter @forma/web exec next dev --port 4010
+formainfinita	http://localhost:4010	stream,delay=12
+
+# Beacon Manager: no thumbnail yet — the admin panel needs Postgres, migrations
+# and a seeded user with 2FA before it renders anything but a login screen, and a
+# login screen is not a portfolio thumbnail. Its _projects/ file carries an empty
+# `image:` until there is a real panel screenshot to put here. Uncomment and shoot
+# once the stack is up on a port that does not collide with Jopoia's :3000.
+#   cd ~/Trabalhos-git/Beacon-Manager && docker compose up -d && pnpm dev
+# beacon-manager	http://localhost:3000	delay=10

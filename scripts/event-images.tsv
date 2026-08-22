@@ -1,0 +1,40 @@
+# Chosen thumbnail per event, for scripts/import-event-images.sh
+#
+#   <slug><TAB><path relative to the archive root>[<TAB>contain]
+#
+# Add a third column "contain" for logos, posters and banners, whose artwork must
+# not be cropped; photos use the default centre-crop.
+#
+# The archive root defaults to /media/phantor/VeeFilesRepo/Eventos Daniel and can
+# be overridden with the EVENTS_ARCHIVE environment variable.
+#
+# Candidates are rendered by scripts/build-event-contactsheet.sh; the slug must
+# match the `slug:` front matter key of the file in _events/.
+#
+campus-party-brasil	Campus Party 2009/Imagem/DSC03687.JPG
+latinoware	Latinoware 2011/Fotos/IMG_0120.JPG
+fisl	FISL 13 - 2012/Fotos/IMG_1550.JPG
+fgsl	FGSL - 2016/Badge/logo fgsl.jpg
+tdc	TDC2015 - São Paulo/IMG_20160617_194510127.jpg
+mostratec	Mostratec 2012/Foto-video/102_2610/IMG_0238.JPG
+intel-iot-roadshow	Intel IoT Roadshow 2014/media/IMG_6249.JPG
+meditec	MEDITEC 2016/Fotos e videos/IMG_20160510_154006730.jpg
+h2hc	H2Hc/rtfm_versoes.jpg	contain
+flisol	FLISOL Guarulhos 2016/cartaz_fisol_vs15.jpg	contain
+arduino-day	Arduino Day 2016/12719520_460918080773444_1138892341225433330_o.jpg
+imasters-7masters	iMaster 7masters 3DPrinting/Fotos do evento/IMG_20160524_190555225.jpg
+inside-3d-printing	Inside 3d Printing/IMG_20160405_183148032.jpg
+sesc-bauru-virada-nerd	SESC Bauru Virada Nerd 2015/IMG_20150718_114106.jpg
+if-macae	IF Macaé/xdimmer/IMGA0309.JPG
+oficina-para-inclusao-digital	11 Oficina para Inclusão Digital 2012/Clipping/oficinas_files/logo-programando.png	contain
+desafio-marista	5 Desafio Marista 2012/Fotos/IMG_2854.JPG
+semana-de-engenharia-usp-sao-carlos	18 Semana de Engenharia USP SC/banner-São-Carlos.png	contain
+ifg-goiania	Palestra Goiania/Midia/Fotos - Cópia/IMG_0793.JPG
+upgrade-robotics	Upgrade Robotics/001.jpg
+#
+# No usable image in the archive — these cards stay text-only:
+# def-con
+# ufopa
+# winter-challenge
+# sebrae-roraima
+# renesas-synergy

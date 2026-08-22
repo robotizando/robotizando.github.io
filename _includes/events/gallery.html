@@ -1,0 +1,28 @@
+{%- comment -%}
+  Grid gallery for event detail pages.
+
+  Unlike elements/carousel.html (which hardcodes a single DOM id and therefore
+  breaks when used more than once on a page), this can be included several times
+  on the same page — one gallery per edition, for instance.
+
+  Usage:
+    {% include events/gallery.html images="/assets/images/events/foo-1.webp,/assets/images/events/foo-2.webp" %}
+    {% include events/gallery.html images="..." caption="Latinoware 2014" %}
+{%- endcomment -%}
+
+{%- assign gallery_images = include.images | split: ',' -%}
+
+{%- if gallery_images.size > 0 -%}
+<div class="row m-0 mt-3 mb-3">
+  {%- for gallery_image in gallery_images -%}
+  <div class="col-6 col-md-4 p-1">
+    <img src="{{ gallery_image | strip | relative_url }}"
+         class="img-fluid rounded w-100"
+         alt="{{ include.caption | default: page.name }}" />
+  </div>
+  {%- endfor -%}
+</div>
+{%- if include.caption -%}
+<p class="text-center text-muted"><small>{{ include.caption }}</small></p>
+{%- endif -%}
+{%- endif -%}

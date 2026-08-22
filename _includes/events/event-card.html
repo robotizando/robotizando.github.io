@@ -1,0 +1,36 @@
+<div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="{{ event_url }}" class="project card text-themed" {%- if external and site.open_new_tab -%} target="_blank" {%- endif -%}>
+    {%- if event_img -%}
+    <img id="{{ event_id }}-img" class="card-img-top" src="{{ event_img }}" alt="{{ event_name }}" />
+    {%- endif -%}
+    <div class="card-body">
+      <h5 id="{{ event_id }}-name" class="card-title">{{ event_name }}</h5>
+      <h6 id="{{ event_id }}-meta" class="card-subtitle mb-2 text-muted">
+        {%- if event_location -%}{{ event_location }}{%- endif -%}
+        {%- if event_location and event_years -%}&nbsp;&middot;&nbsp;{%- endif -%}
+        {%- if event_years -%}
+          {%- assign editions = event_years | size -%}
+          {{ editions }} edition{% if editions != 1 %}s{% endif %}
+        {%- endif -%}
+      </h6>
+      {%- if event_role -%}
+      <p id="{{ event_id }}-role" class="card-text"><small class="text-muted">{{ event_role }}</small></p>
+      {%- endif -%}
+      <p id="{{ event_id }}-desc" class="card-text">{{ event_desc }}</p>
+      {%- if event_topics.size > 0 -%}
+      <p id="{{ event_id }}-topics" class="card-text">
+        {%- for topic in event_topics -%}
+        <span class="badge badge-pill text-primary border border-primary ml-1">{{ topic }}</span>
+        {%- endfor -%}
+      </p>
+      {%- endif -%}
+      {%- if event_years.size > 0 -%}
+      <p id="{{ event_id }}-years" class="card-text mb-0">
+        {%- for year in event_years -%}
+        <span class="badge badge-pill text-muted border border-secondary ml-1">{{ year }}</span>
+        {%- endfor -%}
+      </p>
+      {%- endif -%}
+    </div>
+  </a>
+</div>

@@ -1,5 +1,6 @@
 ---
 name: Area 31 Hacker Space
+slug: area-31-hacker-space
 tools: [Robotics, Open Hardware, Mechanics, Physics ]
 image: https://area31.net.br/wiki/images/thumb/c/c6/Area31_hackspace_transp.png/500px-Area31_hackspace_transp.png
 description: Área31 is a Hackerspace founded on 29/04/2013 in Belo Horizonte-MG. <br><br>I participate as an advisory member and contribute ideas on electronics, mechanics, and topics related to 3D printing technologies and computer science.
